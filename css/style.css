@@ -1,0 +1,135 @@
+.wrapper{
+	min-height: 100%;
+	position: relative;
+}
+
+
+body{
+	background-color: #333;
+	font-family: 'Inspiration', cursive;
+	background: url('../img/3fon.jpeg') 0 0 / cover repeat-y;
+}
+.header {
+	width: 100%;
+	left: 0;
+	top: 0;
+	font-size: 80px;
+	color:#fff;
+	margin: 0 auto;
+	text-align: center;
+	padding: 20px;
+	position: fixed;
+	z-index: 100;
+
+}
+.header__tittle {
+	position: relative;
+	z-index: 2;
+	top: 70px;
+	text-shadow: 2px 2px #eeacac;
+}
+.header__tittle:hover{
+transform: translate(10%, 10%)
+}
+
+.header__image {
+	max-width: 100%;
+	position: relative;
+	left: 0;
+	top: -80px;
+	z-index: 1;
+	opacity: 70%;
+
+}
+.frankenstein__container{
+	width: 90%;
+	margin: 0 auto;
+	position: relative;
+	padding: 50px;
+}
+.frankenstein-head-top {
+	position: absolute;
+	left: 600px;
+	top: 200px;
+	z-index: 1;
+	transform: skew(-10deg, 0deg);
+}
+.frankenstein-head-top:hover{
+	transform: skew(-10deg, 0deg);
+
+}
+.frankenstein-head-eyes{
+	position: absolute;
+	left: 570px;
+	top: 370px;
+	z-index: 2;
+}
+.frankenstein-head-bottom {
+	position: absolute;
+	left: 570px;
+	top: 590px;
+	z-index: 3;
+}
+.frankenstein-left-hand {
+		position: absolute;
+		left: 520px;
+		top: 711px;
+		z-index: 4;
+}
+.frankenstein-left-hand:hover {
+	transform-origin: 0 0;
+	transform: rotate(20deg);
+
+}
+.frankenstein-body{
+		position: absolute;
+		left: 635px;
+		top: 705px;
+		z-index: 5;
+}
+.frankenstein-right-hand{
+		position: absolute;
+		left: 900px;
+		top: 711px;
+		z-index: 6;
+}
+.frankenstein-right-hand:hover{
+		transform-origin: 0 0;
+		transform: rotate(-20deg);
+}
+.frankenstein-left-leg{
+		position: absolute;
+		left: 600px;
+		top: 1270px;
+		z-index: 7;
+}
+.frankenstein-left-leg:hover {
+	transform: skew(10deg, 10deg);
+}
+.frankenstein-right-leg{
+		position: absolute;
+		left: 790px;
+		top: 1260px;
+		z-index: 8;
+}
+.frankenstein-right-leg:hover {
+	transform: scale(1.2);
+	left: 810px;
+}
+.decor_pumkin {
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	transform: translate(30px, 30px) rotate(45deg) scale(0.8);
+}
+.frankenstein:hover .frankenstein-head-eyes {
+	transform-origin: center;
+	transform: rotate(45deg);
+
+
+}
+.frankenstein:hover .frankenstein-head-bottom {
+	transform-origin: center;
+	transform: rotate(-45deg);
+	transform: translate(-20%, 10%)
+}
